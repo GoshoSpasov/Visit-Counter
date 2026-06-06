@@ -51,6 +51,18 @@ visit-counter/
 docker compose up --build
 
 
+\## Как се спира
+
+
+docker compose down
+
+
+\##Ако искаш да изтриеш и запазените данни в базата:
+
+
+docker compose down -v
+
+
 
 После отвори браузъра на \*\*http://localhost:5000\*\*
 
